@@ -1,6 +1,5 @@
 package com.projeto.nybooks.data
 
-import com.projeto.nybooks.data.model.Book
 import com.projeto.nybooks.data.response.BookBodyResponse
 import retrofit2.http.GET
 import retrofit2.Call

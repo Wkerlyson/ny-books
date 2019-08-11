@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:padding="10dp">
-
-    <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            app:cardElevation="8dp">
-
-        <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="10dp"
-                android:background="@android:color/white">
 
             <TextView
                     android:id="@+id/textTitle"
@@ -34,7 +21,4 @@
                     android:textColor="#383737"
                     tools:text="Author" />
 
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
 </LinearLayout>
