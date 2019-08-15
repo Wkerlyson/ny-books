@@ -6,4 +6,7 @@
     <string name="books_title_detail">Book Details</string>
     <string name="books_details_title_label">Title</string>
     <string name="books_details_description_label">Description</string>
+    <string name="books_error_401">Não Autorizado</string>
+    <string name="books_error_400_generic">Erro não tratado</string>
+    <string name="books_error_500_generic">Erro Catastrófico</string>
 </resources>
