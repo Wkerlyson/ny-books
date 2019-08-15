@@ -5,39 +5,45 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp"
         tools:context=".presentation.details.BooksDetailsActivity"
-android:orientation="vertical">
+        android:orientation="vertical">
+
+    <include layout="@layout/include_toolbar"/>
 
     <TextView
             android:text="@string/books_details_title_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
             android:id="@+id/textView"
-    android:textColor="#000"/>
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            style="@style/MyTextViewLabel"/>
+
     <TextView
             android:text="TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/booksDetailTitle"
-            tools:text="Title 1"
-            android:textColor="#000"/>
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            tools:text="Title 1"/>
 
     <TextView
             android:text="@string/books_details_description_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
             android:id="@+id/textView4"
-            android:textColor="#000"/>
+            style="@style/MyTextViewLabel"/>
+
     <TextView
             android:text="TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/booksDetailDescription"
-            tools:text="Description"
-            android:textColor="#000"/>
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            tools:text="Description"/>
 
 </LinearLayout>
