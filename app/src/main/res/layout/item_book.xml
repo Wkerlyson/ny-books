@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:padding="10dp">
 
-            <TextView
-                    android:id="@+id/textTitle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    tools:text="Title"
-                    android:textSize="20sp"
-                    android:textColor="#000"/>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:tools="http://schemas.android.com/tools"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:layout_margin="3dp"
+                                   app:cardBackgroundColor="@color/white"
+                                   app:cardElevation="5dp"
+>
 
-            <TextView
-                    android:id="@+id/textAuthor"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="#383737"
-                    tools:text="Author" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical" android:padding="15dp" android:layout_margin="@dimen/padding_10">
 
-</LinearLayout>
+        <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Title"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+
+        <TextView
+                android:id="@+id/textAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#383737"
+                tools:text="Author"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+

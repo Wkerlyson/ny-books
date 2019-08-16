@@ -5,4 +5,5 @@
         android:layout_height="?android:actionBarSize"
         android:background="@color/colorPrimary"
         android:id="@+id/toolbarMain"
+        android:elevation="8dp"
 />
